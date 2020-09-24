@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:11-alpine
 
 RUN apk add --no-cache build-base file nasm autoconf automake zlib-dev libtool
 
